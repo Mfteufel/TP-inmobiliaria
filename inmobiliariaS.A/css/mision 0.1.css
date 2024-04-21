@@ -1,0 +1,211 @@
+body {
+  margin: 0px;
+  background-color: #4e586e;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #343a40;
+  color: #fff;
+  margin-top: 0px;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+  border-radius: 100px;
+}
+
+.header-info {
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+/*aqui empieza la pagina de la misión*/
+
+.divpadre{
+  position:relative;
+  display:flex;
+}
+
+
+.imagenIZ{
+  width: 30%;
+  height: 320%;
+  margin: 5%;
+  text-align: center;
+}
+
+.mision{
+  width: 80%;
+  height: 280px;
+}
+
+
+.imagenMD{
+  width: 30%;
+  height: 320%;
+  text-align: center;
+  margin:5%;
+}
+
+.vision{
+  width: 80%;
+  height: 280px;
+}
+
+.imagenDR{
+  width: 30%;
+  height: 320%;
+  text-align: center;
+  margin:5%;
+}
+
+.valores{
+  width: 80%;
+  height: 280px;
+}
+
+.t1{
+  margin: 15px;
+  color: #ffc107;
+  font-family: "segoe ui", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p1{
+  margin: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+  padding-top: 5px;
+}
+
+
+/*parte de contactos que va junto con la misión*/
+
+.divmadre{
+  position:relative;
+  display:flex;
+}
+
+
+.c1{
+  color: #ffc107;
+}
+
+
+.imagenEM{
+  padding: 50px;
+  width: 30%;
+  height: 40%;
+  text-align: center;
+  margin-right: 10%;
+}
+
+
+.em{
+  text-align: center;
+  padding: 50px;
+  width: 30%;
+  height: 40%;
+  color: rgb(255, 42, 27);
+}
+
+.EMlink{
+  margin-right: 10%;
+}
+
+.imagenWSP{
+  padding: 50px;
+  width: 50%;
+  height: 30%;
+  text-align: center;
+  margin-left: 15%;
+}
+
+.wsp{
+  text-align: center;
+  padding: 50px;
+  width: 13%;
+  height: 40%;
+  color: rgb(255, 42, 27);
+}
+
+.WSPnro{
+  margin-left: 30%;
+}
+
+.imagenIG{
+  padding: 50px;
+  width: 50%;
+  height: 40%;
+  text-align: center;
+  margin-left: 85%;
+}
+
+.ig{
+  text-align: center;
+  padding: 50px;
+  width: 13%;
+  height: 40%;
+  color: rgb(255, 42, 27);
+}
+
+.IGlink{
+  margin-left:73%;
+  text-decoration: none;
+  
+}
+
+.divmadre{
+  position:relative;
+  display:flex;
+}
+
+
+.wsp a, .ig a, .em a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.wsp a:hover, .ig a:hover, .em a:hover {
+  color: #ffc107; 
+}
+
+.imagenDR img, .imagenIZ img, .imagenDM img{
+  mix-blend-mode: color-burn;
+}

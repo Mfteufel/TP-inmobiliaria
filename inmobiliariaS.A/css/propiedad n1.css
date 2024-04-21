@@ -1,0 +1,254 @@
+body {
+    margin: 0px;
+    background-color: #4e586e;
+    color: #212529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.header-info {
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+
+body {
+    background-color: (#aa8f66);
+    color: #212529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.header-info {
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.property {
+    display: flex;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.property img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.property-info {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.property-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #212529;
+}
+
+.property-info p {
+    margin: 5px 0;
+}
+
+.Welcome {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Welcome h2 {
+    margin: 0;
+}
+
+/* Aca va mi Css W*/
+.base {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 50px;
+    background-color:   rgb(73, 73, 73);
+}
+
+.imagenedificio {
+    display:flex;
+    position: relative;
+}
+
+.laimagen {
+    margin: 40px;
+    width: 700px;
+    height: 450px;
+
+}
+
+.texto {
+    width: 40%;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    margin: 40px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4 );
+    border-radius: 10px; 
+    overflow: hidden; 
+    background-color:rgb(122, 122, 122);
+
+}
+
+.propiedadT{
+    bottom: 0;
+    color:#fff;
+}
+.precio {
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.texto1 {
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.precio{
+    font-size: 25px;
+    color: #fff;
+}
+
+.texto1 p{
+    font-size: 15px;
+    color: #fff;
+}
+
+.boton{
+    display: flex;
+    position: relative;
+    margin: 20 px;
+    justify-content: center;
+    margin-top: -50px;
+    
+
+}
+
+.boton a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.boton1{
+    width: 200px;
+    height: 60px;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 40px;
+    margin-left: 50px
+
+}
+
+.descripcion{
+    width: 80%;
+    margin: 40px;
+    padding-bottom: 60px;
+    margin-top: -30px;
+}
+
+.descripciontext{
+    color: #fff;
+
+}
