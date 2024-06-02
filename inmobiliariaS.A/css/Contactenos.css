@@ -58,7 +58,7 @@ nav ul li a:hover {
 
 /* Estilos para la sección "Contactenos" */
 .contactenos {
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .contactenos form {
@@ -68,21 +68,28 @@ nav ul li a:hover {
 }
 
 .contactenos form input,
-.contactenos form select,
 .contactenos form button {
-  width: 300px; 
-  padding: 10px; 
-  margin-bottom: 10px; 
-  border: 1px solid #ced4da; 
-  border-radius: 5px; 
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.contactenos form select{
+  width: 326px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
 }
 
 .contactenos form button {
-  background-color: #007bff; 
-  color: #fff; 
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .contactenos form button:hover{

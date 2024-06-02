@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="..\css\Contactenos.css">
-    <title>New House - Contactenos</title>
+    <link rel="stylesheet" href="../css/Contactenos.css">
+    <script src="../js/Contactenos.js" defer></script>
+    <title>New House - Contáctenos</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="..\imgenes\Logo-01.png" alt="Logo de New House">
+            <img src="../imgenes/Logo-01.png" alt="Logo de New House">
         </div>
     
         <div>
@@ -25,21 +26,22 @@
         </div>
     </header>
 
-    <div id="subtitulo"><h2>Contactenos</h2></div>
+    <div id="subtitulo"><h2>Contáctenos</h2></div>
 
     <div class="contactenos">
-        <form action="links.html" method="post">
+        <form name="Formulario" action="../html/links.html" method="post" onsubmit="validacion(event)">
             <input type="text" name="Nombre" placeholder="Nombre"><br><br>
-            <input type="text" name="Apellido"  placeholder="Apellido"><br><br>
+            <input type="text" name="Apellido" placeholder="Apellido"><br><br>
             <input type="number" name="DNI" placeholder="DNI"><br><br>
-            <select>
-                <option>Masculino</option>
-                <option>Femenino</option>
-                <option>Otro</option>
+            <select name="Genero">
+                <option value="" disabled selected hidden>Seleccione Género</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otro">Otro</option>
             </select><br><br>
             <input type="date" name="Fecha_nacimiento"><br><br>
-            <input type="number" name="Telefono" placeholder="Teléfono"><br><br>
-            <input type="email" name="Correo" placeholder="Correo Electronico"><br><br>
+            <input type="number" name="Telefono" placeholder="Teléfono"><br><br>    
+            <input type="email" name="Correo" placeholder="Correo Electrónico"><br><br>
             <button type="submit">Enviar Datos</button>
         </form>
     </div>
