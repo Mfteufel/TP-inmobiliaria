@@ -33,15 +33,6 @@ function validacion(event) {
 
     //Valida formato de Email
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;``  
-    /*
-    * ^       : Indica el inicio de la cadena.
-    * [^\s@]+ : Uno o más caracteres que no sean espacios en blanco ni @
-    * @       : El símbolo de arroba, obligatorio en todas las direcciones de correo electrónico
-    * [^\s@]+ : Uno o más caracteres que no sean espacios en blanco ni @ después del @
-    * \.      : Un punto literal (.) escapado.
-    * [^\s@]+ : Uno o más caracteres que no sean espacios en blanco ni @ después del punto
-    * $       : Indica el final de la cadena
-    */
     if (!emailRegex.test(email)) {
         alert("El formato del email es incorrecto.");
         event.preventDefault();

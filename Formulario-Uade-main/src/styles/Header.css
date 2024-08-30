@@ -1,0 +1,53 @@
+/* styles/Header.css */
+.header {
+  background-color: #1b4d66; /* Azul oscuro UADE */
+  padding: 30px 20px;
+  text-align: center;
+  color: #ffffff; /* Blanco para contraste */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 18px;
+  margin: 5px 0 0;
+  font-family: 'Arial', sans-serif;
+  opacity: 0.9;
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 20px 15px;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 15px 10px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+}
